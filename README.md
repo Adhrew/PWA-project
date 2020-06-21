@@ -1,4 +1,4 @@
-# mycomponentlib
+# PWD-project
 
 ## Project setup
 ```
