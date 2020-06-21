@@ -1,4 +1,4 @@
-# PWD-project
+# PWA-project
 
 ## Project setup
 ```
