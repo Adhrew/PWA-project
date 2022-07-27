@@ -2,8 +2,8 @@
 
 import { register } from 'register-service-worker'
 
-if (process.env.NODE_ENV === 'production') {
-  register(`${process.env.BASE_URL}sw.js`, {
+// if (process.env.NODE_ENV === 'production') {
+  register(`./sw.js`, {
     ready () {
       console.log(
         'App is being served from cache by a service worker.\n' +
@@ -29,4 +29,4 @@ if (process.env.NODE_ENV === 'production') {
       console.error('Error during service worker registration:', error)
     }
   })
-}
+// }
